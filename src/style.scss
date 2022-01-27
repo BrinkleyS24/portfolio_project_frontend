@@ -1,0 +1,29 @@
+$maincolor: black;
+$contrastcolor: white;
+
+@mixin white-text-black-bg {
+  color: $contrastcolor;
+  background-color: $maincolor;
+}
+
+@mixin black-test-white-bg {
+  color: $maincolor;
+  background-color: $contrastcolor;
+}
+
+body {
+  margin: 0;
+}
+
+
+
+// --------------------------
+// images
+// --------------------------
+
+img {
+    width: 50rem;
+    border: 1px solid black;
+    object-fit: cover;
+  }
+  
