@@ -13,6 +13,30 @@ $contrastcolor: white;
 
 body {
   margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+footer {
+  background-color: $maincolor;
+  height: 8rem;
+  width: 100%;
+  margin: auto;
+  margin-top: 3rem;
+  align-items: center;
+  background-color: #222;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 10rem;
+  padding: 2rem!important;
+     a {
+       color: $contrastcolor;
+       width: 100%;
+       margin-right: 2rem;
+     }
 }
 
 
@@ -23,7 +47,7 @@ body {
 
 img {
     width: 50rem;
-    border: 1px solid black;
+    border: 1px solid $maincolor;
     object-fit: cover;
   }
   
